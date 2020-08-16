@@ -9,16 +9,12 @@ Just open a video to get started. Once that's done, use keyboard shortcuts to ta
 
 This software uses FFmpeg for video playback. I'm pretty sure I'm supposed to mention that prominently, so here it is.
 
-Shortcuts:
+*Shortcuts:*
 
 * Space: Play/Pause
-
 * W/S: Increase/decrease playback speed
-
 * A/D: Previous/next frame (pauses video)
-
 * Number keys (top row or numpad): Set keyframe for (number * 11) at the current frame
-
 * Delete: Delete keyframe at the current frame
 
 That's all there is to it. As with most open source software, use this at your own risk. I used it to write funscripts for some of my favorite videos and don't know of any problems, but I don't take responsibility for anything that happens as a consequence of using this software.
