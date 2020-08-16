@@ -1,5 +1,5 @@
 # Simple-Funscript-Editor
-A simple open-source editor for .funscript files compatible with various sex toys.
+A simple open-source editor for .funscript files compatible with various sex toys (I've only tested it with the Handy, so I don't know how well it works for anything else. This code is provided without any warranty whatsoever, and that includes some other masturbator taking one of these scripts and interpreting it as "engage blender mode." I don't know why your toy even has that feature).
 
 I was taking a quick break from making games, but apparently I start to hallucinate when I've gone more than two days without writing code for fun, so this happened. If you're here from my Patreon, don't judge me. I think writing open source software is good for your karma or something. Even if it's just to help control a very elaborate masturbator. 
 
