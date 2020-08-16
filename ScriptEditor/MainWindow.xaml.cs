@@ -5,6 +5,16 @@
  * 
  * If it's not right I'll probably just take this down, because I'd rather delete everything than spend another minute
  * reading legalese.
+ * 
+ *    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 1, or (at your option)
+    any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
  */
 
 
@@ -48,6 +58,7 @@ namespace ScriptEditor
 			timer.Start();
 			mePlayer.Volume = 0;
 		}
+
 
 		private void timer_Tick(object sender, EventArgs e)
 		{
@@ -291,5 +302,9 @@ namespace ScriptEditor
 			}
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+		{
+			MessageBox.Show("Keys:\nW/S: Increase/decrease playback speed\nSpace:Pause/Play\nA/D: Previous/Next frame\nNumber keys (numpad or top row): Set keyframe for [number * 11] at current frame\nDelete: Delete keyframe at current frame.");
+		}
 	}
 }

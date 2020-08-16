@@ -31,6 +31,7 @@
                 Save Funscript
             </Button>
             <Label x:Name="keyframeLabel" Content="" Height="26" VerticalAlignment="Top" RenderTransformOrigin="6.614,0.5" HorizontalAlignment="Right"/>
+            <Button Click="Button_Click">Help</Button>
         </ToolBar>
 
         <ffme:MediaElement Name="mePlayer" Grid.Row="1" LoadedBehavior="Manual" Stretch="Uniform" Grid.ColumnSpan="2" Margin="10,0,0,0" />
